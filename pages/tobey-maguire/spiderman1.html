@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../assets/css/internal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
     <title>Multiverso | Spider-Man</title>
   </head>
   <body>
     <div class="s-wrapper">
+      <video autoplay loop muted>
+        <source src="../../assets/videos/spiderman-2002-trailer.mp4" type="video/mp4
+        ">
+      </video>
+      
       <div class="s-left-column">
         <nav class="navigator">
           <div class="navigator__icon">
@@ -23,7 +32,8 @@
           </ul>
         </nav>
       </div>
-      <div class="s-main-content">
+
+      <div class="s-main-content s-spiderman-01-01">
         <div class="s-main-content__top">
           <div class="s-logo">
             <img
@@ -32,6 +42,7 @@
               title="Spiderman (2002)"
             />
           </div>
+
           <div class="s-description">
             <div class="pills">
               <ul>
@@ -53,9 +64,54 @@
               </p>
             </div>
           </div>
+
+          <div class="s-links">
+            <ul>
+              <li>
+                <a
+                  href="https://www.youtube.com/watch?v=TYMMOjBUPMM"
+                  target="_blank"
+                  class="link-button"
+                >
+                  <span class="icon"><div class="play-icon">&nbsp;</div></span>
+                  <span class="label">Assistir ao trailer</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div><div class="s-main-content__bottom"></div></div>
+
+        <div class="s-main-content__bottom">
+          <div class="gallery">
+            <ul>
+              <li>
+                <a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-01-full.jpg"
+                  ><img
+                    src="../../assets/images/spiderman-tobey/movie-01/gallery/image-01.png"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-02-full.jpg"
+                  ><img
+                    src="../../assets/images/spiderman-tobey/movie-01/gallery/image-02.png"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-03-full.jpg"
+                  ><img
+                    src="../../assets/images/spiderman-tobey/movie-01/gallery/image-03.png"
+                    alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    </script>
   </body>
 </html>
