@@ -33,8 +33,9 @@
   width: 100vw;
   height: 130vh;
   padding-left: 130px;
-  overflow: auto;
-  position: absolute;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .s-wrapper .s-main-content__top {
@@ -56,6 +57,7 @@
   margin-top: 50px;
   margin-left: 0;
   margin-bottom: 30px;
+  width: 900px;
 }
 
 .s-wrapper .s-main-content__top .s-description {
@@ -95,5 +97,14 @@
 }
 
 .s-spiderman-01-01:hover {
+  background-image: none;
+}
+
+.s-spiderman-01-02 {
+  background-image: url('../images/spiderman-tobey/movie-02/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-01-02:hover {
   background-image: none;
 }

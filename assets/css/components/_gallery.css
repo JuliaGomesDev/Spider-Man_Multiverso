@@ -6,14 +6,20 @@
 .gallery ul {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-.gallery ul li {
-  margin-left: 25px;
+.gallery ul li a img {
+  width: 350px;
+  height: 200px;
 }
 
 .gallery ul li:first-child {
   margin-left: 0;
+}
+
+.gallery ul li:last-child {
+  margin-right: 10px;
 }
 
 .gallery ul li a img {
