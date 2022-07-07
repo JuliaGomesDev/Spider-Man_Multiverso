@@ -1,11 +1,12 @@
 .gallery {
-  padding: 50px 0 0;
+  padding: 20px 0 0;
   padding-left: 0;
 }
 
 .gallery ul {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
 }
 

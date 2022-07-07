@@ -31,23 +31,19 @@
 
 .s-wrapper .s-main-content {
   width: 100vw;
-  height: 130vh;
+  height: 100vh;
   padding-left: 130px;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: auto;
   position: relative;
 }
 
 .s-wrapper .s-main-content__top {
-  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  position: relative;
 }
 
 .s-wrapper .s-main-content__bottom {
-  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -115,5 +111,50 @@
 }
 
 .s-spiderman-01-03:hover {
+  background-image: none;
+}
+
+.s-spiderman-02-01 {
+  background-image: url('../images/spiderman-tom/movie-01/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-02-01:hover {
+  background-image: none;
+}
+
+.s-spiderman-02-02 {
+  background-image: url('../images/spiderman-tom/movie-02/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-02-02:hover {
+  background-image: none;
+}
+
+.s-spiderman-02-03 {
+  background-image: url('../images/spiderman-tom/movie-03/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-02-03:hover {
+  background-image: none;
+}
+
+.s-spiderman-03-01 {
+  background-image: url('../images/spiderman-andrew/movie-01/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-03-01:hover {
+  background-image: none;
+}
+
+.s-spiderman-03-02 {
+  background-image: url('../images/spiderman-andrew/movie-02/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-03-02:hover {
   background-image: none;
 }
